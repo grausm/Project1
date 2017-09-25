@@ -18,7 +18,7 @@ const LANGUAGE = 'English';
 
 function main() {
     setlotNumber();
-    setbedRooms() ;
+    setbedRooms();
     setbathRooms();
     setgarageSize();
     settotalPrice();
@@ -46,7 +46,12 @@ function setgarageSize() {
 }
 
 function settotalPrice() {
-    totalPrice = (bedRooms * 17000) + (bathRooms * 12500)  + (garageSize * 6000);
+    const bedRoom_price = 17000,
+        bathRoom_price = 12500,
+        garage_Size = 6000;
+    totalPrice = (bedRooms * bedRoom_price) + (bathRooms * bathRoom_price) + (garageSize * garage_Size);
+
+
 }
 
 function printResults() {
