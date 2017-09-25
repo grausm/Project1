@@ -52,6 +52,8 @@ function settotalPrice() {
 function printResults() {
     console.log(`Total Price:   ${totalPrice}`);
 }
+
+//Section 4 -------------------------------------------^
 /*
 Design the logic for a program for the River Falls Homes Construction Company.
 Design a program that prompts the user for a lot number in the River Falls subdivision,
